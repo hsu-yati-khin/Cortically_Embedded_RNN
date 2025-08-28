@@ -1,0 +1,16 @@
+{"time":"2025-08-11T10:14:33.025225+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250811_101432-p7qid4ws/logs/debug-core.log"}
+{"time":"2025-08-11T10:14:33.288225+01:00","level":"INFO","msg":"stream: created new stream","id":"p7qid4ws"}
+{"time":"2025-08-11T10:14:33.288254+01:00","level":"INFO","msg":"stream: started","id":"p7qid4ws"}
+{"time":"2025-08-11T10:14:33.28827+01:00","level":"INFO","msg":"sender: started","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T10:14:33.288286+01:00","level":"INFO","msg":"handler: started","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T10:14:33.288263+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T10:14:33.490421+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-11T11:49:35.654429+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-11T11:49:35.655413+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-11T11:49:36.676909+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-p7qid4ws","runtime_seconds":1.19750675,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.483265542,"progress":"991.1KB/991.1KB"}]},{"desc":"uploading artifact model-p7qid4ws","runtime_seconds":1.028213833}],"total_operations":2}}
+{"time":"2025-08-11T11:49:40.530852+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T11:49:40.733966+01:00","level":"INFO","msg":"stream: closing","id":"p7qid4ws"}
+{"time":"2025-08-11T11:49:40.734027+01:00","level":"INFO","msg":"handler: closed","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T11:49:40.734053+01:00","level":"INFO","msg":"sender: closed","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T11:49:40.734288+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p7qid4ws"}
+{"time":"2025-08-11T11:49:40.73432+01:00","level":"INFO","msg":"stream: closed","id":"p7qid4ws"}

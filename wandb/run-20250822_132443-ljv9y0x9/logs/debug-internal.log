@@ -1,0 +1,26 @@
+{"time":"2025-08-22T13:24:43.978823+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250822_132443-ljv9y0x9/logs/debug-core.log"}
+{"time":"2025-08-22T13:24:44.2842+01:00","level":"INFO","msg":"stream: created new stream","id":"ljv9y0x9"}
+{"time":"2025-08-22T13:24:44.284247+01:00","level":"INFO","msg":"stream: started","id":"ljv9y0x9"}
+{"time":"2025-08-22T13:24:44.284292+01:00","level":"INFO","msg":"handler: started","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T13:24:44.284449+01:00","level":"INFO","msg":"sender: started","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T13:24:44.284634+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T13:24:44.574585+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T13:46:15.195979+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:47:15.210245+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:49:15.23881+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:49:37.966889+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-08-22T13:50:12.14625+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:51:15.272942+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-08-22T13:51:39.676359+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-08-22T13:52:13.692465+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:53:45.3295+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-22T13:54:08.850384+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-08-22T19:53:44.409697+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T19:53:44.410657+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T19:53:45.423941+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-ljv9y0x9","runtime_seconds":1.208516042,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.444465667,"progress":"132.4KB/132.4KB"}]},{"desc":"uploading artifact model-ljv9y0x9","runtime_seconds":1.019522875},{"desc":"uploading output.log","runtime_seconds":0.843388542,"progress":"282.7KB/282.7KB"}],"total_operations":3}}
+{"time":"2025-08-22T19:53:48.995821+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T19:53:49.222541+01:00","level":"INFO","msg":"stream: closing","id":"ljv9y0x9"}
+{"time":"2025-08-22T19:53:49.222647+01:00","level":"INFO","msg":"handler: closed","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T19:53:49.222745+01:00","level":"INFO","msg":"sender: closed","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T19:53:49.222895+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ljv9y0x9"}
+{"time":"2025-08-22T19:53:49.222963+01:00","level":"INFO","msg":"stream: closed","id":"ljv9y0x9"}

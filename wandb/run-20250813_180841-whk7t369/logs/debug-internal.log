@@ -1,0 +1,7 @@
+{"time":"2025-08-13T18:08:41.305389+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250813_180841-whk7t369/logs/debug-core.log"}
+{"time":"2025-08-13T18:08:41.60632+01:00","level":"INFO","msg":"stream: created new stream","id":"whk7t369"}
+{"time":"2025-08-13T18:08:41.606375+01:00","level":"INFO","msg":"stream: started","id":"whk7t369"}
+{"time":"2025-08-13T18:08:41.606427+01:00","level":"INFO","msg":"sender: started","stream_id":"whk7t369"}
+{"time":"2025-08-13T18:08:41.606453+01:00","level":"INFO","msg":"handler: started","stream_id":"whk7t369"}
+{"time":"2025-08-13T18:08:41.606633+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"whk7t369"}
+{"time":"2025-08-13T18:08:41.879565+01:00","level":"INFO","msg":"Starting system monitor"}

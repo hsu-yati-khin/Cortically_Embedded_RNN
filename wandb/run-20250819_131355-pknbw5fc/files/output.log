@@ -1,0 +1,39 @@
+_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4
+{2: 4, 20: 4, 24: 4, 25: 4, 26: 4, 27: 4, 28: 4, 30: 4}
+visual start 2 visual end 6
+somatosensory start 23 somatosensory end 27
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 82, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 137, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 80, in __init__
+    regularisers = self.resolve_regularisers(hp["regularisers"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 107, in resolve_regularisers
+    regs_list.append(regs_mapping[reg_name](**real_args))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 410, in __init__
+    spine_count_gradient = self.get_spine_count_gradient(duplicates, areas, species)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 442, in get_spine_count_gradient
+    spine_counts = self.get_mouse_spine_count_gradient(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 416, in get_mouse_spine_count_gradient
+    spine_counts = loadmat(f)["mouse_spine_counts"].squeeze()  # shape: [N]
+                   ^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/scipy/io/matlab/_mio.py", line 226, in loadmat
+    MR, _ = mat_reader_factory(f, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/scipy/io/matlab/_mio.py", line 74, in mat_reader_factory
+    mjv, mnv = _get_matfile_version(byte_stream)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/scipy/io/matlab/_miobase.py", line 239, in _get_matfile_version
+    maj_ind = int(tst_str[2] == b'I'[0])
+                  ~~~~~~~^^^
+IndexError: index out of range
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

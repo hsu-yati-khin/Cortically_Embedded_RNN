@@ -1,0 +1,16 @@
+{"time":"2025-08-08T10:43:39.107746+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250808_104338-h5rdkaba/logs/debug-core.log"}
+{"time":"2025-08-08T10:43:39.368001+01:00","level":"INFO","msg":"stream: created new stream","id":"h5rdkaba"}
+{"time":"2025-08-08T10:43:39.368229+01:00","level":"INFO","msg":"stream: started","id":"h5rdkaba"}
+{"time":"2025-08-08T10:43:39.368273+01:00","level":"INFO","msg":"sender: started","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:43:39.368272+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:43:39.368476+01:00","level":"INFO","msg":"handler: started","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:43:39.577066+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-08T10:59:16.718005+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-08T10:59:16.719038+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-08T10:59:17.725814+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-h5rdkaba","runtime_seconds":1.341068458,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.676491167,"progress":"991.1KB/991.1KB"}]},{"desc":"uploading artifact model-h5rdkaba","runtime_seconds":1.012623125}],"total_operations":2}}
+{"time":"2025-08-08T10:59:21.487391+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-08T10:59:21.76257+01:00","level":"INFO","msg":"stream: closing","id":"h5rdkaba"}
+{"time":"2025-08-08T10:59:21.762614+01:00","level":"INFO","msg":"handler: closed","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:59:21.762641+01:00","level":"INFO","msg":"sender: closed","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:59:21.762898+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"h5rdkaba"}
+{"time":"2025-08-08T10:59:21.762952+01:00","level":"INFO","msg":"stream: closed","id":"h5rdkaba"}

@@ -1,0 +1,19 @@
+{"time":"2025-08-21T17:58:45.588388+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250821_175845-g1gnbzil/logs/debug-core.log"}
+{"time":"2025-08-21T17:58:45.848491+01:00","level":"INFO","msg":"stream: created new stream","id":"g1gnbzil"}
+{"time":"2025-08-21T17:58:45.848553+01:00","level":"INFO","msg":"stream: started","id":"g1gnbzil"}
+{"time":"2025-08-21T17:58:45.848556+01:00","level":"INFO","msg":"handler: started","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T17:58:45.848574+01:00","level":"INFO","msg":"sender: started","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T17:58:45.848598+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T17:58:50.046114+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-21T19:42:35.745105+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/g1gnbzil/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-21T20:51:10.425193+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-21T21:55:43.226811+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/g1gnbzil/file_stream\": read tcp 100.91.184.162:55092->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-21T23:27:20.315448+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-21T23:27:20.316414+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-21T23:27:21.32955+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-g1gnbzil","runtime_seconds":1.199827042,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.535319209,"progress":"991.1KB/991.1KB"}]},{"desc":"uploading artifact model-g1gnbzil","runtime_seconds":1.018780667},{"desc":"uploading output.log","runtime_seconds":0.81485025,"progress":"193.0KB/193.0KB"}],"total_operations":3}}
+{"time":"2025-08-21T23:27:24.969768+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-21T23:27:25.207638+01:00","level":"INFO","msg":"stream: closing","id":"g1gnbzil"}
+{"time":"2025-08-21T23:27:25.207685+01:00","level":"INFO","msg":"handler: closed","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T23:27:25.207712+01:00","level":"INFO","msg":"sender: closed","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T23:27:25.207936+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g1gnbzil"}
+{"time":"2025-08-21T23:27:25.208021+01:00","level":"INFO","msg":"stream: closed","id":"g1gnbzil"}

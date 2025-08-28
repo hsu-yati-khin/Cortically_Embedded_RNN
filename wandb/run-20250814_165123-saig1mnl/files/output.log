@@ -1,0 +1,18 @@
+Initialising dataloader with 16 tasks
+
+initialising cernn-subsampled model with 4 regularisers
+
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 79, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 120, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 47, in __init__
+    ce = CorticalEmbeddingSubsampled(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CorticalEmbeddingSubsampled.__init__() got an unexpected keyword argument 'n_units'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

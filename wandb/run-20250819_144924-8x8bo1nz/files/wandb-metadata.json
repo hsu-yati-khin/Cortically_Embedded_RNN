@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.6-arm64-arm-64bit",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-08-19T13:49:24.459136Z",
+  "program":  "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/eva-se/cortically-embedded-rnn.git",
+    "commit":  "f73e8ec5d723c821d531e412f783976ded1f200b"
+  },
+  "email":  "oj24020@bristol.ac.uk",
+  "root":  "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse",
+  "host":  "Hsus-MacBook-Pro.local",
+  "executable":  "/Users/hsuyatikhin/miniforge3/bin/python",
+  "codePathLocal":  "train.py"
+}

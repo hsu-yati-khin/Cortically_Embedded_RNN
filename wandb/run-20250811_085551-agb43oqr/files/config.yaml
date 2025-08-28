@@ -1,0 +1,138 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.12.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 9
+                - 11
+                - 49
+                - 50
+                - 53
+                - 71
+                - 103
+            "2":
+                - 1
+                - 5
+                - 9
+                - 11
+                - 49
+                - 50
+                - 53
+                - 71
+                - 103
+            "3":
+                - 1
+                - 2
+                - 15
+                - 16
+                - 55
+            "4": 3.12.9
+            "5": 0.20.1
+            "6": 4.49.0
+            "12": 0.20.1
+            "13": darwin-arm64
+hp:
+    value: '{''name'': ''cernn'', ''species'': ''mouse'', ''noise'': True, ''sigma_rec'': 0.01, ''w_rec_init'': ''kaiming'', ''activation'': ''relu'', ''regularisers'': {''SE'': {''lambd'': 1e-07, ''distance_matrix'': ''resolve'', ''ramping'': False, ''dependency'': ''linear'', ''mode'': ''L2''}, ''l1_sensory_activity_regulariser'': {''lambd'': 5e-08, ''sensory_indices'': ''resolve''}, ''intra_area_penalty'': {''lambd'': 1e-07, ''area_mask'': ''resolve'', ''penalty_type'': ''L1''}, ''self_conn_reg'': {''lambd'': 1e-07, ''diag_mask'': ''resolve''}, ''wiring_entropy_regulariser'': {''lambd'': 1e-08, ''distance_matrix'': ''resolve''}, ''inputs_sum_to_av'': {''lambd'': 1e-06, ''duplicates'': ''resolve'', ''areas'': ''resolve'', ''species'': ''mouse''}}, ''constraints'': {''mask_within_area_weights'': False, ''zero_weights_thres'': 0.005}, ''tau'': 100, ''dt'': 20, ''loss_type'': ''lsq'', ''optimizer'': ''adam'', ''clip_grads'': True, ''clip_grad_value'': 1, ''from_pretrained'': None, ''learning_rate'': 0.001, ''target_perf'': 0.85, ''sensory'': [''V1'', ''3''], ''motor'': [''8l''], ''duplicate'': {''V1'': 4, ''3'': 4, ''8l'': 4}, ''rule_trains'': [''fdgo_s1'', ''fdgo_v1'', ''reactgo_s1'', ''reactgo_v1'', ''delaygo_s1'', ''delaygo_v1'', ''fdanti_s1'', ''fdanti_v1'', ''reactanti_s1'', ''reactanti_v1'', ''delayanti_s1'', ''delayanti_v1'', ''dmsgo'', ''dmsnogo'', ''dmcgo'', ''dmcnogo''], ''n_input'': 21, ''n_output'': 3}'
+model:
+    value:
+        activation: relu
+        clip_grad_value: 1
+        clip_grads: true
+        constraints:
+            mask_within_area_weights: false
+            zero_weights_thres: 0.005
+        dt: 20
+        duplicate:
+            "3": 4
+            8l: 4
+            V1: 4
+        from_pretrained: null
+        learning_rate: 0.001
+        loss_type: lsq
+        motor:
+            - 8l
+        name: cernn
+        noise: true
+        optimizer: adam
+        regularisers:
+            SE:
+                dependency: linear
+                distance_matrix: resolve
+                lambd: 1e-07
+                mode: L2
+                ramping: false
+            inputs_sum_to_av:
+                areas: resolve
+                duplicates: resolve
+                lambd: 1e-06
+                species: mouse
+            intra_area_penalty:
+                area_mask: resolve
+                lambd: 1e-07
+                penalty_type: L1
+            l1_sensory_activity_regulariser:
+                lambd: 5e-08
+                sensory_indices: resolve
+            self_conn_reg:
+                diag_mask: resolve
+                lambd: 1e-07
+            wiring_entropy_regulariser:
+                distance_matrix: resolve
+                lambd: 1e-08
+        sensory:
+            - V1
+            - "3"
+        sigma_rec: 0.01
+        species: mouse
+        target_perf: 0.85
+        tau: 100
+        w_rec_init: kaiming
+seed:
+    value: 0
+task:
+    value:
+        in_type: normal
+        mix_rule: true
+        n_eachring: 2
+        rule_trains:
+            - fdgo_s1
+            - fdgo_v1
+            - reactgo_s1
+            - reactgo_v1
+            - delaygo_s1
+            - delaygo_v1
+            - fdanti_s1
+            - fdanti_v1
+            - reactanti_s1
+            - reactanti_v1
+            - delayanti_s1
+            - delayanti_v1
+            - dmsgo
+            - dmsnogo
+            - dmcgo
+            - dmcnogo
+        ruleset: all
+        sigma_x: 0.01
+        trials_per_epoch: 10
+train:
+    value:
+        batch_size_test: 16
+        batch_size_train: 128
+        batch_size_val: 16
+        epochs: 10
+        fast_dev_run: false
+        l2_weight_init: 0
+        n_workers: 1
+        name: local
+        p_weight_train: null
+wandb:
+    value:
+        entity: oj24020-university-of-bristol
+        mode: online
+        notes: ""
+        project: ce-rnn
+        tags: []

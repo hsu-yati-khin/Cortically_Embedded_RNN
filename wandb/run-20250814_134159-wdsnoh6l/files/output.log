@@ -1,0 +1,271 @@
+Initialising dataloader with 16 tasks
+
+initialising cernn-subsampled model with 4 regularisers
+
+Using cortical embedding from src/embedding/subsampled_vertices/macaque/units-500_seed-0
+Area V1: 82 sampled vertices
+Area 3: 28 sampled vertices
+Area F1: 31 sampled vertices
+Initialising CERNN model
+task_hp saved in: saved_models/cernn-subsampled/deep-plant-81_all/task_hp.pkl
+
+hp_pl_module saved in: saved_models/cernn-subsampled/deep-plant-81_all/hp_pl_module.pkl
+model checkpoint saved in: saved_models/cernn-subsampled/deep-plant-81_all/deep-plant-81_all
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:658: Checkpoint directory /Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/saved_models/cernn-subsampled/deep-plant-81_all exists and is not empty.
+
+Sanity Checking DataLoader 0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  0.97it/s]
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:420: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+validation loss = 7.027650356292725
+
+performance fdgo_s1 = 0.200
+performance fdgo_v1 = 0.200
+
+density at threshold 1e-04 = 99.90
+
+total performance step 0 = 0.2000
+
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:11<00:00,  0.88it/s, v_num=oh6l]
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:420: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (10) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+validation loss = 4.508826732635498████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:10<00:00,  1.54it/s]
+
+performance fdgo_s1 = 0.200
+performance fdgo_v1 = 0.375
+performance reactgo_s1 = 0.200
+performance reactgo_v1 = 0.200
+performance delaygo_s1 = 0.225
+performance delaygo_v1 = 0.200
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.150
+performance reactanti_s1 = 0.225
+performance reactanti_v1 = 0.150
+performance delayanti_s1 = 0.225
+performance delayanti_v1 = 0.175
+performance dmsgo = 0.200
+performance dmsnogo = 0.225
+performance dmcgo = 0.287
+performance dmcnogo = 0.188
+
+density at threshold 1e-04 = 99.89
+
+total performance step 10 = 0.2163
+
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.92it/s, v_num=oh6l]
+validation loss = 4.375576972961426████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:10<00:00,  1.55it/s]
+
+performance fdgo_s1 = 0.200
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.225
+performance reactgo_v1 = 0.200
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.225
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.200
+performance reactanti_s1 = 0.175
+performance reactanti_v1 = 0.150
+performance delayanti_s1 = 0.200
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.300
+performance dmsnogo = 0.475
+performance dmcgo = 0.150
+performance dmcnogo = 0.213
+
+density at threshold 1e-04 = 99.86
+
+total performance step 20 = 0.2325
+
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.97it/s, v_num=oh6l]
+validation loss = 4.405726909637451████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.60it/s]
+
+performance fdgo_s1 = 0.200
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.200
+performance reactgo_v1 = 0.425
+performance delaygo_s1 = 0.175
+performance delaygo_v1 = 0.150
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.350
+performance reactanti_s1 = 0.150
+performance reactanti_v1 = 0.200
+performance delayanti_s1 = 0.225
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.000
+performance dmsnogo = 0.375
+performance dmcgo = 0.125
+performance dmcnogo = 0.213
+
+density at threshold 1e-04 = 99.86
+
+total performance step 30 = 0.2050
+
+Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.97it/s, v_num=oh6l]
+validation loss = 4.215236663818359████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.61it/s]
+
+performance fdgo_s1 = 0.225
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.325
+performance reactgo_v1 = 0.200
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.200
+performance fdanti_s1 = 0.250
+performance fdanti_v1 = 0.600
+performance reactanti_s1 = 0.200
+performance reactanti_v1 = 0.100
+performance delayanti_s1 = 0.225
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.162
+performance dmsnogo = 0.275
+performance dmcgo = 0.175
+performance dmcnogo = 0.350
+
+density at threshold 1e-04 = 99.82
+
+total performance step 40 = 0.2425
+
+Epoch 4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.03it/s, v_num=oh6l]
+validation loss = 4.085172176361084████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.66it/s]
+
+performance fdgo_s1 = 0.200
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.400
+performance reactgo_v1 = 0.300
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.175
+performance fdanti_s1 = 0.225
+performance fdanti_v1 = 0.675
+performance reactanti_s1 = 0.150
+performance reactanti_v1 = 0.200
+performance delayanti_s1 = 0.175
+performance delayanti_v1 = 0.250
+performance dmsgo = 0.438
+performance dmsnogo = 0.400
+performance dmcgo = 0.087
+performance dmcnogo = 0.200
+
+density at threshold 1e-04 = 99.79
+
+total performance step 50 = 0.2700
+
+Epoch 5: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.05it/s, v_num=oh6l]
+validation loss = 4.1919965744018555███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.60it/s]
+
+performance fdgo_s1 = 0.250
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.175
+performance reactgo_v1 = 0.325
+performance delaygo_s1 = 0.225
+performance delaygo_v1 = 0.225
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.500
+performance reactanti_s1 = 0.200
+performance reactanti_v1 = 0.375
+performance delayanti_s1 = 0.225
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.438
+performance dmsnogo = 0.162
+performance dmcgo = 0.000
+performance dmcnogo = 0.175
+
+density at threshold 1e-04 = 99.75
+
+total performance step 60 = 0.2325
+
+Epoch 6: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.98it/s, v_num=oh6l]
+validation loss = 4.019458770751953████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.61it/s]
+
+performance fdgo_s1 = 0.225
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.375
+performance reactgo_v1 = 0.350
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.175
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.500
+performance reactanti_s1 = 0.300
+performance reactanti_v1 = 0.300
+performance delayanti_s1 = 0.175
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.512
+performance dmsnogo = 0.188
+performance dmcgo = 0.125
+performance dmcnogo = 0.138
+
+density at threshold 1e-04 = 99.70
+
+total performance step 70 = 0.2562
+
+Epoch 7: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.04it/s, v_num=oh6l]
+validation loss = 3.9713125228881836███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.65it/s]
+
+performance fdgo_s1 = 0.250
+performance fdgo_v1 = 0.225
+performance reactgo_s1 = 0.275
+performance reactgo_v1 = 0.275
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.200
+performance fdanti_s1 = 0.200
+performance fdanti_v1 = 0.575
+performance reactanti_s1 = 0.225
+performance reactanti_v1 = 0.200
+performance delayanti_s1 = 0.200
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.338
+performance dmsnogo = 0.213
+performance dmcgo = 0.213
+performance dmcnogo = 0.250
+
+density at threshold 1e-04 = 99.67
+
+total performance step 80 = 0.2525
+
+Epoch 8: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.00it/s, v_num=oh6l]
+validation loss = 3.9878928661346436███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.62it/s]
+
+performance fdgo_s1 = 0.225
+performance fdgo_v1 = 0.250
+performance reactgo_s1 = 0.325
+performance reactgo_v1 = 0.350
+performance delaygo_s1 = 0.200
+performance delaygo_v1 = 0.200
+performance fdanti_s1 = 0.300
+performance fdanti_v1 = 0.575
+performance reactanti_s1 = 0.400
+performance reactanti_v1 = 0.250
+performance delayanti_s1 = 0.200
+performance delayanti_v1 = 0.150
+performance dmsgo = 0.387
+performance dmsnogo = 0.375
+performance dmcgo = 0.225
+performance dmcnogo = 0.225
+
+density at threshold 1e-04 = 99.60
+
+total performance step 90 = 0.2925
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.00it/s, v_num=oh6l]
+validation loss = 3.8852922916412354███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:09<00:00,  1.62it/s]
+
+performance fdgo_s1 = 0.225
+performance fdgo_v1 = 0.200
+performance reactgo_s1 = 0.425
+performance reactgo_v1 = 0.350
+performance delaygo_s1 = 0.225
+performance delaygo_v1 = 0.200
+performance fdanti_s1 = 0.250
+performance fdanti_v1 = 0.400
+performance reactanti_s1 = 0.250
+performance reactanti_v1 = 0.250
+performance delayanti_s1 = 0.200
+performance delayanti_v1 = 0.200
+performance dmsgo = 0.375
+performance dmsnogo = 0.425
+performance dmcgo = 0.175
+performance dmcnogo = 0.250
+
+density at threshold 1e-04 = 99.47
+
+total performance step 100 = 0.2812
+
+Epoch 9: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:24<00:00,  0.40it/s, v_num=oh6l]
+

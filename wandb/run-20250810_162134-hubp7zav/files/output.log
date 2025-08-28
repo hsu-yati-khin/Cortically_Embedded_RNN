@@ -1,0 +1,25 @@
+_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo__4__4__4
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 82, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 137, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 86, in __init__
+    ce = MouseCorticalEmbedding(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 204, in __init__
+    super().__init__(
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 149, in __init__
+    self.original_distance_matrix = load_distance_matrix(distance_matrix_path)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 35, in load_distance_matrix
+    distance_matrix = np.load(distance_matrix_path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 494, in load
+    raise ValueError("Cannot load file containing pickled data "
+ValueError: Cannot load file containing pickled data when allow_pickle=False
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

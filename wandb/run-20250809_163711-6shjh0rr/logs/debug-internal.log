@@ -1,0 +1,18 @@
+{"time":"2025-08-09T16:37:12.015362+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250809_163711-6shjh0rr/logs/debug-core.log"}
+{"time":"2025-08-09T16:37:12.269747+01:00","level":"INFO","msg":"stream: created new stream","id":"6shjh0rr"}
+{"time":"2025-08-09T16:37:12.269798+01:00","level":"INFO","msg":"stream: started","id":"6shjh0rr"}
+{"time":"2025-08-09T16:37:12.269818+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:37:12.269874+01:00","level":"INFO","msg":"handler: started","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:37:12.269851+01:00","level":"INFO","msg":"sender: started","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:37:12.511182+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-09T16:47:56.716909+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/6shjh0rr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-09T16:47:58.95875+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/6shjh0rr/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-09T16:53:36.37154+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-09T16:53:36.372561+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-09T16:53:37.378063+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-6shjh0rr","runtime_seconds":1.182415542,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.507749,"progress":"991.1KB/991.1KB"}]},{"desc":"uploading artifact model-6shjh0rr","runtime_seconds":1.008991167}],"total_operations":2}}
+{"time":"2025-08-09T16:53:40.985093+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-09T16:53:41.180369+01:00","level":"INFO","msg":"stream: closing","id":"6shjh0rr"}
+{"time":"2025-08-09T16:53:41.180399+01:00","level":"INFO","msg":"handler: closed","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:53:41.180412+01:00","level":"INFO","msg":"sender: closed","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:53:41.180416+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6shjh0rr"}
+{"time":"2025-08-09T16:53:41.1807+01:00","level":"INFO","msg":"stream: closed","id":"6shjh0rr"}

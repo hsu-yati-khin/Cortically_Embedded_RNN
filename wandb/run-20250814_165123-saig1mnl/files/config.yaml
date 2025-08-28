@@ -1,0 +1,120 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.12.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 9
+                - 11
+                - 49
+                - 50
+                - 53
+                - 71
+                - 103
+            "2":
+                - 1
+                - 5
+                - 9
+                - 11
+                - 49
+                - 50
+                - 53
+                - 71
+                - 103
+            "3":
+                - 15
+                - 16
+                - 55
+            "4": 3.12.9
+            "5": 0.20.1
+            "6": 4.49.0
+            "12": 0.20.1
+            "13": darwin-arm64
+model:
+    value:
+        activation: relu
+        clip_grad_value: 1
+        clip_grads: true
+        dt: 20
+        embedding:
+            motor:
+                - F1
+            n_units: 500
+            seed: 0
+            sensory:
+                - V1
+                - "3"
+        from_pretrained: null
+        learning_rate: 0.001
+        loss_type: lsq
+        name: cernn-subsampled
+        noise: true
+        optimizer: adam
+        regularisers:
+            SE:
+                dependency: quadratic
+                distance_matrix: resolve
+                lambd: 0.001
+                mode: L2
+                rescale: true
+            l2_activity_regulariser:
+                lambd: 1e-05
+            l2_weight_regulariser:
+                lambd: 1e-05
+            wiring_entropy_regulariser:
+                distance_matrix: resolve
+                lambd: 0.001
+        sigma_rec: 0.05
+        species: macaque
+        target_perf: 0.95
+        tau: 100
+        w_rec_init: kaiming
+        zero_weights_thres: 0.0001
+seed:
+    value: 0
+task:
+    value:
+        in_type: normal
+        mix_rule: true
+        n_eachring: 2
+        rule_trains:
+            - fdgo_s1
+            - fdgo_v1
+            - reactgo_s1
+            - reactgo_v1
+            - delaygo_s1
+            - delaygo_v1
+            - fdanti_s1
+            - fdanti_v1
+            - reactanti_s1
+            - reactanti_v1
+            - delayanti_s1
+            - delayanti_v1
+            - dmsgo
+            - dmsnogo
+            - dmcgo
+            - dmcnogo
+        ruleset: all
+        sigma_x: 0.01
+        trials_per_epoch: 10
+train:
+    value:
+        batch_size_test: 16
+        batch_size_train: 128
+        batch_size_val: 16
+        epochs: 10
+        fast_dev_run: false
+        l2_weight_init: 0
+        n_workers: 1
+        name: local
+        p_weight_train: null
+wandb:
+    value:
+        entity: oj24020-university-of-bristol
+        mode: online
+        notes: ""
+        project: ce-rnn
+        tags: []

@@ -1,0 +1,33 @@
+{"time":"2025-08-19T19:22:51.006837+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250819_192250-s3ots59b/logs/debug-core.log"}
+{"time":"2025-08-19T19:22:51.286582+01:00","level":"INFO","msg":"stream: created new stream","id":"s3ots59b"}
+{"time":"2025-08-19T19:22:51.286625+01:00","level":"INFO","msg":"stream: started","id":"s3ots59b"}
+{"time":"2025-08-19T19:22:51.286637+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s3ots59b"}
+{"time":"2025-08-19T19:22:51.286656+01:00","level":"INFO","msg":"sender: started","stream_id":"s3ots59b"}
+{"time":"2025-08-19T19:22:51.286646+01:00","level":"INFO","msg":"handler: started","stream_id":"s3ots59b"}
+{"time":"2025-08-19T19:22:51.561365+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T20:11:38.650162+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T20:11:40.679554+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 100.91.184.162:55300->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-19T20:44:57.783435+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T20:44:59.891433+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:00:59.948124+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 100.91.184.162:55413->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-08-19T21:01:02.264674+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:01:03.868308+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:16:30.38625+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:29:15.366692+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:59:30.834164+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 100.91.184.162:55445->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-19T22:14:19.869689+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T22:14:22.0274+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T22:31:54.319626+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T22:31:56.747189+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T22:32:01.163232+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T23:15:33.944722+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T23:16:36.447913+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/s3ots59b/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-19T23:48:25.215894+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T23:48:25.216841+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T23:48:26.228019+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-s3ots59b","runtime_seconds":1.209861542,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.482929334,"progress":"186.3KB/186.3KB"}]},{"desc":"uploading artifact model-s3ots59b","runtime_seconds":1.01793925},{"desc":"uploading output.log","runtime_seconds":0.818741,"progress":"131.2KB/131.2KB"}],"total_operations":3}}
+{"time":"2025-08-19T23:48:29.275799+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T23:48:29.513974+01:00","level":"INFO","msg":"stream: closing","id":"s3ots59b"}
+{"time":"2025-08-19T23:48:29.514019+01:00","level":"INFO","msg":"handler: closed","stream_id":"s3ots59b"}
+{"time":"2025-08-19T23:48:29.514038+01:00","level":"INFO","msg":"sender: closed","stream_id":"s3ots59b"}
+{"time":"2025-08-19T23:48:29.51427+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s3ots59b"}
+{"time":"2025-08-19T23:48:29.514305+01:00","level":"INFO","msg":"stream: closed","id":"s3ots59b"}

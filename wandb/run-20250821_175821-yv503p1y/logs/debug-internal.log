@@ -1,0 +1,6 @@
+{"time":"2025-08-21T17:58:21.434602+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250821_175821-yv503p1y/logs/debug-core.log"}
+{"time":"2025-08-21T17:58:21.697584+01:00","level":"INFO","msg":"stream: created new stream","id":"yv503p1y"}
+{"time":"2025-08-21T17:58:21.697783+01:00","level":"INFO","msg":"stream: started","id":"yv503p1y"}
+{"time":"2025-08-21T17:58:21.6978+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yv503p1y"}
+{"time":"2025-08-21T17:58:21.697807+01:00","level":"INFO","msg":"handler: started","stream_id":"yv503p1y"}
+{"time":"2025-08-21T17:58:21.697807+01:00","level":"INFO","msg":"sender: started","stream_id":"yv503p1y"}

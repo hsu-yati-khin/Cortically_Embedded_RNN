@@ -1,0 +1,34 @@
+_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p_4_p_4
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 82, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 137, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 61, in __init__
+    ce = MouseCorticalEmbedding(
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 215, in __init__
+    super().__init__(
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 160, in __init__
+    self.original_distance_matrix = load_distance_matrix(distance_matrix_path)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/cortical_embedding.py", line 46, in load_distance_matrix
+    return np.loadtxt(distance_matrix_path, delimiter=",")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 1397, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 1012, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/numpy/lib/_datasource.py", line 192, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/numpy/lib/_datasource.py", line 529, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: src/data/mouse_ccf_isocortex_distance_matrix_sampled_1000_no_first_row_col.csv not found.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

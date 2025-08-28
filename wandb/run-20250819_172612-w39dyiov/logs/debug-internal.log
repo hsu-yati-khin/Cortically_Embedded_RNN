@@ -1,0 +1,16 @@
+{"time":"2025-08-19T17:26:12.71447+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250819_172612-w39dyiov/logs/debug-core.log"}
+{"time":"2025-08-19T17:26:13.02385+01:00","level":"INFO","msg":"stream: created new stream","id":"w39dyiov"}
+{"time":"2025-08-19T17:26:13.024156+01:00","level":"INFO","msg":"stream: started","id":"w39dyiov"}
+{"time":"2025-08-19T17:26:13.024202+01:00","level":"INFO","msg":"sender: started","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:26:13.024402+01:00","level":"INFO","msg":"handler: started","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:26:13.024428+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:26:13.26142+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T17:29:58.225142+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T17:29:58.225459+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T17:29:59.236534+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-w39dyiov","runtime_seconds":1.195381792},{"desc":"uploading artifact model-w39dyiov","runtime_seconds":1.0154005}],"total_operations":2}}
+{"time":"2025-08-19T17:30:02.355463+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T17:30:02.56081+01:00","level":"INFO","msg":"stream: closing","id":"w39dyiov"}
+{"time":"2025-08-19T17:30:02.56086+01:00","level":"INFO","msg":"handler: closed","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:30:02.560909+01:00","level":"INFO","msg":"sender: closed","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:30:02.561187+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w39dyiov"}
+{"time":"2025-08-19T17:30:02.561246+01:00","level":"INFO","msg":"stream: closed","id":"w39dyiov"}

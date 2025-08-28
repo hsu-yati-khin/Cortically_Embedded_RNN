@@ -1,0 +1,19 @@
+{"time":"2025-08-20T21:09:49.038403+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250820_210948-l5v8e7ti/logs/debug-core.log"}
+{"time":"2025-08-20T21:09:49.391042+01:00","level":"INFO","msg":"stream: created new stream","id":"l5v8e7ti"}
+{"time":"2025-08-20T21:09:49.391188+01:00","level":"INFO","msg":"stream: started","id":"l5v8e7ti"}
+{"time":"2025-08-20T21:09:49.391207+01:00","level":"INFO","msg":"sender: started","stream_id":"l5v8e7ti"}
+{"time":"2025-08-20T21:09:49.391356+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"l5v8e7ti"}
+{"time":"2025-08-20T21:09:49.391373+01:00","level":"INFO","msg":"handler: started","stream_id":"l5v8e7ti"}
+{"time":"2025-08-20T21:09:49.789113+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-20T21:36:20.463142+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-20T22:36:37.791846+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/l5v8e7ti/file_stream\": read tcp 100.91.184.162:63583->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-21T00:44:52.801398+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/l5v8e7ti/file_stream\": read tcp 100.91.184.162:65333->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-21T03:40:07.643961+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-21T03:40:07.64522+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-21T03:40:08.661909+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-l5v8e7ti","runtime_seconds":1.183277916},{"desc":"uploading artifact model-l5v8e7ti","runtime_seconds":1.022697166}],"total_operations":2}}
+{"time":"2025-08-21T03:40:11.290441+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-21T03:40:11.535965+01:00","level":"INFO","msg":"stream: closing","id":"l5v8e7ti"}
+{"time":"2025-08-21T03:40:11.536005+01:00","level":"INFO","msg":"handler: closed","stream_id":"l5v8e7ti"}
+{"time":"2025-08-21T03:40:11.536022+01:00","level":"INFO","msg":"sender: closed","stream_id":"l5v8e7ti"}
+{"time":"2025-08-21T03:40:11.536218+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"l5v8e7ti"}
+{"time":"2025-08-21T03:40:11.536281+01:00","level":"INFO","msg":"stream: closed","id":"l5v8e7ti"}

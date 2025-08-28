@@ -1,0 +1,16 @@
+{"time":"2025-08-14T16:59:15.254317+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250814_165914-by6fqfl0/logs/debug-core.log"}
+{"time":"2025-08-14T16:59:15.557684+01:00","level":"INFO","msg":"stream: created new stream","id":"by6fqfl0"}
+{"time":"2025-08-14T16:59:15.557904+01:00","level":"INFO","msg":"stream: started","id":"by6fqfl0"}
+{"time":"2025-08-14T16:59:15.557935+01:00","level":"INFO","msg":"sender: started","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T16:59:15.558123+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T16:59:15.558179+01:00","level":"INFO","msg":"handler: started","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T16:59:15.800413+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-14T17:04:43.482871+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-14T17:04:43.483611+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-14T17:04:44.491169+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-by6fqfl0","runtime_seconds":1.194414583,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.458819458,"progress":"1.5MB/5.0MB"}]},{"desc":"uploading artifact model-by6fqfl0","runtime_seconds":1.011632708}],"total_operations":2}}
+{"time":"2025-08-14T17:04:48.569474+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-14T17:04:48.761187+01:00","level":"INFO","msg":"stream: closing","id":"by6fqfl0"}
+{"time":"2025-08-14T17:04:48.761218+01:00","level":"INFO","msg":"handler: closed","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T17:04:48.761234+01:00","level":"INFO","msg":"sender: closed","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T17:04:48.76144+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"by6fqfl0"}
+{"time":"2025-08-14T17:04:48.76146+01:00","level":"INFO","msg":"stream: closed","id":"by6fqfl0"}

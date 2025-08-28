@@ -1,0 +1,15 @@
+{"time":"2025-08-19T14:20:15.211375+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250819_142014-iqbfdbwa/logs/debug-core.log"}
+{"time":"2025-08-19T14:20:15.481477+01:00","level":"INFO","msg":"stream: created new stream","id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:15.481757+01:00","level":"INFO","msg":"stream: started","id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:15.4818+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:15.481811+01:00","level":"INFO","msg":"sender: started","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:15.481997+01:00","level":"INFO","msg":"handler: started","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:15.802742+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T14:20:16.17798+01:00","level":"INFO","msg":"stream: closing","id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:16.178183+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T14:20:16.17821+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T14:20:17.146586+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T14:20:17.353281+01:00","level":"INFO","msg":"handler: closed","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:17.35331+01:00","level":"INFO","msg":"sender: closed","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:17.353639+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iqbfdbwa"}
+{"time":"2025-08-19T14:20:17.354059+01:00","level":"INFO","msg":"stream: closed","id":"iqbfdbwa"}

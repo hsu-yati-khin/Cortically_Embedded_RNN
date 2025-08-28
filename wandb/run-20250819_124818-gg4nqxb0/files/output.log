@@ -1,0 +1,30 @@
+_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p_4_p_4_st_1
+{0: 1, 1: 1, 2: 4, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1, 11: 1, 12: 1, 13: 1, 14: 1, 15: 1, 16: 1, 17: 1, 18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 23: 1, 24: 1, 25: 1, 26: 1, 27: 1, 28: 1, 29: 1, 30: 4, 31: 1, 32: 1, 33: 1, 34: 1, 35: 1, 36: 1, 37: 1, 38: 1, 39: 1, 40: 1, 41: 1, 42: 1}
+visual start 2 visual end 6
+somatosensory start 23 somatosensory end 24
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 82, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 137, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 80, in __init__
+    regularisers = self.resolve_regularisers(hp["regularisers"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 107, in resolve_regularisers
+    regs_list.append(regs_mapping[reg_name](**real_args))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 412, in __init__
+    spine_count_gradient = self.get_spine_count_gradient(duplicates, areas, species)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 444, in get_spine_count_gradient
+    spine_counts = self.get_mouse_spine_count_gradient(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/models/regularisers.py", line 416, in get_mouse_spine_count_gradient
+    f = SPINE_COUNT_MOUSE
+        ^^^^^^^^^^^^^^^^^
+NameError: name 'SPINE_COUNT_MOUSE' is not defined. Did you mean: 'SPINE_COUNT_HUMAN'?
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,16 @@
+{"time":"2025-08-13T17:39:33.246552+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250813_173932-cddld6ls/logs/debug-core.log"}
+{"time":"2025-08-13T17:39:33.496201+01:00","level":"INFO","msg":"stream: created new stream","id":"cddld6ls"}
+{"time":"2025-08-13T17:39:33.496256+01:00","level":"INFO","msg":"stream: started","id":"cddld6ls"}
+{"time":"2025-08-13T17:39:33.496277+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:39:33.496333+01:00","level":"INFO","msg":"sender: started","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:39:33.496354+01:00","level":"INFO","msg":"handler: started","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:39:33.789764+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-13T17:44:56.991388+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-13T17:44:56.992857+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-13T17:44:58.013088+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-cddld6ls","runtime_seconds":1.279627375,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.598264041,"progress":"990.7KB/990.7KB"}]},{"desc":"uploading artifact model-cddld6ls","runtime_seconds":1.025407458}],"total_operations":2}}
+{"time":"2025-08-13T17:45:02.342498+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-13T17:45:02.769219+01:00","level":"INFO","msg":"stream: closing","id":"cddld6ls"}
+{"time":"2025-08-13T17:45:02.769269+01:00","level":"INFO","msg":"handler: closed","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:45:02.769293+01:00","level":"INFO","msg":"sender: closed","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:45:02.769287+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cddld6ls"}
+{"time":"2025-08-13T17:45:02.770516+01:00","level":"INFO","msg":"stream: closed","id":"cddld6ls"}

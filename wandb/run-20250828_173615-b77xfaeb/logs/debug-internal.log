@@ -1,0 +1,8 @@
+{"time":"2025-08-28T17:36:15.533877+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250828_173615-b77xfaeb/logs/debug-core.log"}
+{"time":"2025-08-28T17:36:15.778178+01:00","level":"INFO","msg":"stream: created new stream","id":"b77xfaeb"}
+{"time":"2025-08-28T17:36:15.778223+01:00","level":"INFO","msg":"stream: started","id":"b77xfaeb"}
+{"time":"2025-08-28T17:36:15.778241+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b77xfaeb"}
+{"time":"2025-08-28T17:36:15.778252+01:00","level":"INFO","msg":"handler: started","stream_id":"b77xfaeb"}
+{"time":"2025-08-28T17:36:15.778252+01:00","level":"INFO","msg":"sender: started","stream_id":"b77xfaeb"}
+{"time":"2025-08-28T17:36:16.084539+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-28T18:27:01.582299+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/b77xfaeb/file_stream\": read tcp 172.16.3.153:54270->35.186.228.49:443: read: connection reset by peer"}

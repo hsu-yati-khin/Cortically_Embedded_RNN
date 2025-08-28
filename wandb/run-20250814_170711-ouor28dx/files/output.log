@@ -1,0 +1,26 @@
+Initialising dataloader with 16 tasks
+
+initialising cernn-subsampled model with 5 regularisers
+
+Using cortical embedding from src/embedding/subsampled_vertices/human/units-600_seed-0
+Area V1: 16 sampled vertices
+Area 3b: 6 sampled vertices
+Area 4: 15 sampled vertices
+Initialising CERNN model
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 79, in main
+    model = init_model(hp_pl_module, task_hp, LightningRNNModule)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 120, in init_model
+    return PLModule(hp_pl_module)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 83, in __init__
+    regularisers = self.resolve_regularisers(model_config.regularisers)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/pytorch_models.py", line 113, in resolve_regularisers
+    regs_list.append(regs_mapping[reg_name](**real_args))
+                     ~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'spine_count_grad'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,200 @@
+_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4
+{2: 4, 20: 4, 24: 4, 25: 4, 26: 4, 27: 4, 28: 4, 30: 4}
+visual start 2 visual end 6
+somatosensory start 23 somatosensory end 27
+{2: 4, 20: 4, 24: 4, 25: 4, 26: 4, 27: 4, 28: 4, 30: 4}
+{2: 4, 20: 4, 24: 4, 25: 4, 26: 4, 27: 4, 28: 4, 30: 4}
+task_hp saved in: saved_models/cernn/sleek-water-170_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4/task_hp.pkl
+hp_pl_module saved in: saved_models/cernn/sleek-water-170_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4/hp_pl_module.pkl
+model checkpoint saved in: saved_models/cernn/sleek-water-170_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4/sleek-water-170_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:658: Checkpoint directory /Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/saved_models/cernn/sleek-water-170_fdgo_s1_fdgo_v1_reactgo_s1_reactgo_v1_delaygo_s1_delaygo_v1_fdanti_s1_fdanti_v1_reactanti_s1_reactanti_v1_delayanti_s1_delayanti_v1_dmsgo_dmsnogo_dmcgo_dmcnogo_Sp_4_p-bfd_4_p-tr_4_p-un_4_p-ul_4_p-n_4_p-ll_4_p_4 exists and is not empty.
+Sanity Checking DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.62it/s]validation/epoch loss =  2.9509775638580322
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:420: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+performance fdgo_s1 =  0.20000000298023224
+performance fdgo_v1 =  0.20000000298023224
+total performance step 0 =  0.20000000298023224
+Epoch 0: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.02it/s, v_num=yiov]validation/epoch loss =  2.1741394996643066
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:420: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+/Users/hsuyatikhin/miniforge3/lib/python3.12/site-packages/pytorch_lightning/loops/fit_loop.py:310: The number of training batches (10) is smaller than the logging interval Trainer(log_every_n_steps=50). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:06<00:00,  2.31it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.4000000059604645
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.17499999701976776
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.15000000596046448
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.13750000298023224
+performance dmsnogo =  0.21250000596046448
+performance dmcgo =  0.21250000596046448
+performance dmcnogo =  0.2750000059604645
+total performance step 10 =  0.20999999344348907
+Epoch 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.02it/s, v_num=yiov]validation/epoch loss =  2.052131414413452
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.94it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.25
+performance dmcnogo =  0.21250000596046448
+total performance step 20 =  0.20624999701976776
+Epoch 2: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.97it/s, v_num=yiov]validation/epoch loss =  2.0245022773742676
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.78it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.25
+performance dmcnogo =  0.22499999403953552
+total performance step 30 =  0.20749999582767487
+Epoch 3: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.99it/s, v_num=yiov]validation/epoch loss =  2.0233898162841797
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.71it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.26249998807907104
+total performance step 40 =  0.20624999701976776
+Epoch 4: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.98it/s, v_num=yiov]validation/epoch loss =  2.021252393722534
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.95it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.23749999701976776
+total performance step 50 =  0.20374999940395355
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.97it/s, v_num=yiov]validation/epoch loss =  2.0152053833007812
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.88it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.23749999701976776
+total performance step 60 =  0.20374999940395355
+Epoch 6: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  0.97it/s, v_num=yiov]validation/epoch loss =  2.016599416732788
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.89it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.22499999403953552
+total performance step 70 =  0.20250000059604645
+Epoch 7: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.05it/s, v_num=yiov]validation/epoch loss =  2.0200464725494385
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.92it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.22499999403953552
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.21250000596046448
+total performance step 80 =  0.20250000059604645
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:09<00:00,  1.08it/s, v_num=yiov]validation/epoch loss =  2.018237829208374
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.80it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.26249998807907104
+total performance step 90 =  0.20624999701976776
+Epoch 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:10<00:00,  1.00it/s, v_num=yiov]validation/epoch loss =  2.015432119369507
+performance fdgo_s1 =  0.20000000298023224████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:05<00:00,  2.82it/s]
+performance fdgo_v1 =  0.20000000298023224
+performance reactgo_s1 =  0.20000000298023224
+performance reactgo_v1 =  0.20000000298023224
+performance delaygo_s1 =  0.20000000298023224
+performance delaygo_v1 =  0.20000000298023224
+performance fdanti_s1 =  0.20000000298023224
+performance fdanti_v1 =  0.20000000298023224
+performance reactanti_s1 =  0.20000000298023224
+performance reactanti_v1 =  0.20000000298023224
+performance delayanti_s1 =  0.20000000298023224
+performance delayanti_v1 =  0.20000000298023224
+performance dmsgo =  0.20000000298023224
+performance dmsnogo =  0.20000000298023224
+performance dmcgo =  0.20000000298023224
+performance dmcnogo =  0.25
+total performance step 100 =  0.20499999821186066
+Epoch 9: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:20<00:00,  0.48it/s, v_num=yiov]
+

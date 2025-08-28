@@ -1,0 +1,14 @@
+{"time":"2025-08-20T17:29:31.392929+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250820_172931-arw3h3kv/logs/debug-core.log"}
+{"time":"2025-08-20T17:29:31.694938+01:00","level":"INFO","msg":"stream: created new stream","id":"arw3h3kv"}
+{"time":"2025-08-20T17:29:31.694991+01:00","level":"INFO","msg":"stream: started","id":"arw3h3kv"}
+{"time":"2025-08-20T17:29:31.695013+01:00","level":"INFO","msg":"handler: started","stream_id":"arw3h3kv"}
+{"time":"2025-08-20T17:29:31.695024+01:00","level":"INFO","msg":"sender: started","stream_id":"arw3h3kv"}
+{"time":"2025-08-20T17:29:31.695051+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"arw3h3kv"}
+{"time":"2025-08-20T17:29:32.102708+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-20T17:56:32.553462+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": read tcp 100.91.184.162:60338->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-20T19:31:38.639461+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-20T19:32:00.842431+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-20T19:39:40.799936+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 100.91.184.162:61448->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-20T20:18:06.948076+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": read tcp 100.91.184.162:61810->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-20T20:22:36.954751+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": read tcp 100.91.184.162:61855->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-20T20:45:07.112673+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/arw3h3kv/file_stream\": read tcp 100.91.184.162:62174->35.186.228.49:443: read: connection reset by peer"}

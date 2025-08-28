@@ -1,0 +1,16 @@
+{"time":"2025-08-11T10:05:27.533104+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250811_100527-9k10hpt7/logs/debug-core.log"}
+{"time":"2025-08-11T10:05:27.820782+01:00","level":"INFO","msg":"stream: created new stream","id":"9k10hpt7"}
+{"time":"2025-08-11T10:05:27.820823+01:00","level":"INFO","msg":"stream: started","id":"9k10hpt7"}
+{"time":"2025-08-11T10:05:27.820833+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:05:27.820854+01:00","level":"INFO","msg":"handler: started","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:05:27.820833+01:00","level":"INFO","msg":"sender: started","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:05:28.014864+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-11T10:10:53.776942+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-11T10:10:53.778386+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-11T10:10:54.786207+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-9k10hpt7","runtime_seconds":1.197629458,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.541580917,"progress":"990.7KB/990.7KB"}]},{"desc":"uploading artifact model-9k10hpt7","runtime_seconds":1.012557458}],"total_operations":2}}
+{"time":"2025-08-11T10:10:58.095116+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-11T10:10:58.310306+01:00","level":"INFO","msg":"stream: closing","id":"9k10hpt7"}
+{"time":"2025-08-11T10:10:58.310336+01:00","level":"INFO","msg":"handler: closed","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:10:58.310355+01:00","level":"INFO","msg":"sender: closed","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:10:58.310357+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9k10hpt7"}
+{"time":"2025-08-11T10:10:58.310494+01:00","level":"INFO","msg":"stream: closed","id":"9k10hpt7"}

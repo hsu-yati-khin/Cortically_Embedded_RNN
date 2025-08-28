@@ -1,0 +1,16 @@
+{"time":"2025-08-19T17:43:21.393853+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250819_174321-ht5l39kl/logs/debug-core.log"}
+{"time":"2025-08-19T17:43:23.525407+01:00","level":"INFO","msg":"stream: created new stream","id":"ht5l39kl"}
+{"time":"2025-08-19T17:43:23.525993+01:00","level":"INFO","msg":"stream: started","id":"ht5l39kl"}
+{"time":"2025-08-19T17:43:23.526391+01:00","level":"INFO","msg":"handler: started","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T17:43:23.526741+01:00","level":"INFO","msg":"sender: started","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T17:43:23.526791+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T17:43:38.250111+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T19:20:59.167063+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T19:20:59.167766+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T19:21:00.180536+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-ht5l39kl","runtime_seconds":1.177249583,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.577642083,"progress":"991.1KB/991.1KB"}]},{"desc":"uploading artifact model-ht5l39kl","runtime_seconds":1.017295333}],"total_operations":2}}
+{"time":"2025-08-19T19:21:03.923653+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T19:21:04.20377+01:00","level":"INFO","msg":"stream: closing","id":"ht5l39kl"}
+{"time":"2025-08-19T19:21:04.203813+01:00","level":"INFO","msg":"handler: closed","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T19:21:04.203833+01:00","level":"INFO","msg":"sender: closed","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T19:21:04.204082+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ht5l39kl"}
+{"time":"2025-08-19T19:21:04.204137+01:00","level":"INFO","msg":"stream: closed","id":"ht5l39kl"}

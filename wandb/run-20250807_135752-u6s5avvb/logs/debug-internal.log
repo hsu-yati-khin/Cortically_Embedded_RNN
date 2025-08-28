@@ -1,0 +1,17 @@
+{"time":"2025-08-07T13:57:53.249936+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250807_135752-u6s5avvb/logs/debug-core.log"}
+{"time":"2025-08-07T13:57:53.640243+01:00","level":"INFO","msg":"stream: created new stream","id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:53.64029+01:00","level":"INFO","msg":"stream: started","id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:53.640314+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:53.640336+01:00","level":"INFO","msg":"sender: started","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:53.640327+01:00","level":"INFO","msg":"handler: started","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:53.764535+01:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-07T13:57:53.764614+01:00","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-08-07T13:57:54.766754+01:00","level":"INFO","msg":"stream: closing","id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:54.767175+01:00","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-08-07T13:57:54.934296+01:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-07T13:57:54.934457+01:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run ce-rnn/u6s5avvb not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-08-07T13:57:54.934751+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-07T13:57:54.934799+01:00","level":"INFO","msg":"handler: closed","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:54.93481+01:00","level":"INFO","msg":"sender: closed","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:54.934826+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u6s5avvb"}
+{"time":"2025-08-07T13:57:54.935107+01:00","level":"INFO","msg":"stream: closed","id":"u6s5avvb"}

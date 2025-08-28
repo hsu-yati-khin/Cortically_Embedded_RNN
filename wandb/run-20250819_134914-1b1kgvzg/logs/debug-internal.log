@@ -1,0 +1,16 @@
+{"time":"2025-08-19T13:49:15.109741+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250819_134914-1b1kgvzg/logs/debug-core.log"}
+{"time":"2025-08-19T13:49:15.408646+01:00","level":"INFO","msg":"stream: created new stream","id":"1b1kgvzg"}
+{"time":"2025-08-19T13:49:15.408871+01:00","level":"INFO","msg":"stream: started","id":"1b1kgvzg"}
+{"time":"2025-08-19T13:49:15.408925+01:00","level":"INFO","msg":"sender: started","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:49:15.409078+01:00","level":"INFO","msg":"handler: started","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:49:15.409096+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:49:15.665515+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T13:54:49.091544+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T13:54:49.09257+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T13:54:50.106101+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-1b1kgvzg","runtime_seconds":1.194655875,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.475351584,"progress":"990.7KB/990.7KB"}]},{"desc":"uploading artifact model-1b1kgvzg","runtime_seconds":1.018693584}],"total_operations":2}}
+{"time":"2025-08-19T13:54:53.990875+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T13:54:54.209228+01:00","level":"INFO","msg":"stream: closing","id":"1b1kgvzg"}
+{"time":"2025-08-19T13:54:54.209251+01:00","level":"INFO","msg":"handler: closed","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:54:54.209264+01:00","level":"INFO","msg":"sender: closed","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:54:54.209478+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1b1kgvzg"}
+{"time":"2025-08-19T13:54:54.209499+01:00","level":"INFO","msg":"stream: closed","id":"1b1kgvzg"}

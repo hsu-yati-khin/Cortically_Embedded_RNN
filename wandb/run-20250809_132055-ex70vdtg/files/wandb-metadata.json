@@ -1,0 +1,47 @@
+{
+  "os":  "macOS-15.6-arm64-arm-64bit",
+  "python":  "CPython 3.12.9",
+  "startedAt":  "2025-08-09T12:20:55.798164Z",
+  "args":  [
+    "model=baseline_leaky_rnn"
+  ],
+  "program":  "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/eva-se/cortically-embedded-rnn.git",
+    "commit":  "357c11f5546d3fffe06fd1a73b2af38070791852"
+  },
+  "email":  "oj24020@bristol.ac.uk",
+  "root":  "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse",
+  "host":  "Hsus-MacBook-Pro.local",
+  "executable":  "/Users/hsuyatikhin/miniforge3/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "994662584320",
+      "used":  "421483474944"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "994662584320",
+      "used":  "421483474944"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  10
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  8,
+    "gpuCores":  16,
+    "memoryGb":  16,
+    "swapTotalBytes":  "1073741824",
+    "ramTotalBytes":  "17179869184"
+  }
+}

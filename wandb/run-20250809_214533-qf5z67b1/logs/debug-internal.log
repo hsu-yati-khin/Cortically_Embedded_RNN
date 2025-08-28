@@ -1,0 +1,16 @@
+{"time":"2025-08-09T21:45:33.748615+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250809_214533-qf5z67b1/logs/debug-core.log"}
+{"time":"2025-08-09T21:45:34.027238+01:00","level":"INFO","msg":"stream: created new stream","id":"qf5z67b1"}
+{"time":"2025-08-09T21:45:34.02731+01:00","level":"INFO","msg":"stream: started","id":"qf5z67b1"}
+{"time":"2025-08-09T21:45:34.027372+01:00","level":"INFO","msg":"sender: started","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:45:34.027441+01:00","level":"INFO","msg":"handler: started","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:45:34.027812+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:45:34.297912+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-09T21:53:36.436643+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-09T21:53:36.437777+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-09T21:53:37.451605+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-qf5z67b1","runtime_seconds":1.2006575,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.570648459,"progress":"454.4KB/454.4KB"}]},{"desc":"uploading artifact model-qf5z67b1","runtime_seconds":1.019782916}],"total_operations":2}}
+{"time":"2025-08-09T21:53:40.438721+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-09T21:53:40.660926+01:00","level":"INFO","msg":"stream: closing","id":"qf5z67b1"}
+{"time":"2025-08-09T21:53:40.660955+01:00","level":"INFO","msg":"handler: closed","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:53:40.660968+01:00","level":"INFO","msg":"sender: closed","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:53:40.661173+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qf5z67b1"}
+{"time":"2025-08-09T21:53:40.661206+01:00","level":"INFO","msg":"stream: closed","id":"qf5z67b1"}

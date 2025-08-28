@@ -1,0 +1,5 @@
+project: 'ce-rnn'
+entity: 'oj24020-university-of-bristol'
+notes: ''
+tags: []
+mode: 'online' # {'online', 'disabled', 'run', 'offline', 'dryrun'}

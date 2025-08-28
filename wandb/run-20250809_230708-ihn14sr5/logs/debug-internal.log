@@ -1,0 +1,16 @@
+{"time":"2025-08-09T23:07:08.552332+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250809_230708-ihn14sr5/logs/debug-core.log"}
+{"time":"2025-08-09T23:07:08.815097+01:00","level":"INFO","msg":"stream: created new stream","id":"ihn14sr5"}
+{"time":"2025-08-09T23:07:08.815349+01:00","level":"INFO","msg":"stream: started","id":"ihn14sr5"}
+{"time":"2025-08-09T23:07:08.815525+01:00","level":"INFO","msg":"handler: started","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:07:08.815596+01:00","level":"INFO","msg":"sender: started","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:07:08.815811+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:07:09.027683+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-09T23:21:32.270688+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-09T23:21:32.271063+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-09T23:21:33.282263+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-ihn14sr5","runtime_seconds":1.19139625},{"desc":"uploading artifact model-ihn14sr5","runtime_seconds":1.0169385420000001}],"total_operations":2}}
+{"time":"2025-08-09T23:21:34.093932+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-09T23:21:34.364592+01:00","level":"INFO","msg":"stream: closing","id":"ihn14sr5"}
+{"time":"2025-08-09T23:21:34.364627+01:00","level":"INFO","msg":"handler: closed","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:21:34.364652+01:00","level":"INFO","msg":"sender: closed","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:21:34.364906+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ihn14sr5"}
+{"time":"2025-08-09T23:21:34.364936+01:00","level":"INFO","msg":"stream: closed","id":"ihn14sr5"}

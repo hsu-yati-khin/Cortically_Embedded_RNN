@@ -1,0 +1,16 @@
+{"time":"2025-08-13T17:45:59.110674+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250813_174558-setvoou9/logs/debug-core.log"}
+{"time":"2025-08-13T17:45:59.473714+01:00","level":"INFO","msg":"stream: created new stream","id":"setvoou9"}
+{"time":"2025-08-13T17:45:59.473755+01:00","level":"INFO","msg":"stream: started","id":"setvoou9"}
+{"time":"2025-08-13T17:45:59.473774+01:00","level":"INFO","msg":"sender: started","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:45:59.473775+01:00","level":"INFO","msg":"handler: started","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:45:59.473794+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:45:59.847033+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-13T17:51:14.043584+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-13T17:51:14.045028+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-13T17:51:15.049227+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-setvoou9","runtime_seconds":1.196505625,"subtasks":[{"desc":"model.ckpt","runtime_seconds":0.509254875,"progress":"990.7KB/990.7KB"}]},{"desc":"uploading artifact model-setvoou9","runtime_seconds":1.009556125}],"total_operations":2}}
+{"time":"2025-08-13T17:51:19.1759+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-13T17:51:19.393636+01:00","level":"INFO","msg":"stream: closing","id":"setvoou9"}
+{"time":"2025-08-13T17:51:19.393687+01:00","level":"INFO","msg":"handler: closed","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:51:19.393723+01:00","level":"INFO","msg":"sender: closed","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:51:19.393721+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"setvoou9"}
+{"time":"2025-08-13T17:51:19.394353+01:00","level":"INFO","msg":"stream: closed","id":"setvoou9"}

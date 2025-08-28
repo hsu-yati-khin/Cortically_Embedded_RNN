@@ -1,0 +1,11 @@
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_rnn_multitask.py", line 46, in main
+    run_name = configure_name(cfg, task_hp)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/src/train_utils.py", line 127, in configure_name
+    return "_" + rules_train + "_" + duplicates
+                                     ^^^^^^^^^^
+NameError: name 'duplicates' is not defined
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

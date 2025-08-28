@@ -1,0 +1,19 @@
+{"time":"2025-08-22T01:40:28.34463+01:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/hsuyatikhin/Downloads/UoB/UoB Data Science (MSc)/8. Data Science Project 2024/###Final Dissertation/Implementation_human_mouse/wandb/run-20250822_014028-iedvy1gf/logs/debug-core.log"}
+{"time":"2025-08-22T01:40:28.660388+01:00","level":"INFO","msg":"stream: created new stream","id":"iedvy1gf"}
+{"time":"2025-08-22T01:40:28.660473+01:00","level":"INFO","msg":"stream: started","id":"iedvy1gf"}
+{"time":"2025-08-22T01:40:28.66049+01:00","level":"INFO","msg":"handler: started","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T01:40:28.66051+01:00","level":"INFO","msg":"sender: started","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T01:40:28.660685+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T01:40:28.972715+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T03:04:44.4973+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/iedvy1gf/file_stream\": read tcp 100.91.184.162:60108->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-22T03:09:29.741784+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/iedvy1gf/file_stream\": read tcp 100.91.184.162:60150->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-22T07:08:44.527505+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/oj24020-university-of-bristol/ce-rnn/iedvy1gf/file_stream\": read tcp 100.91.184.162:62209->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-08-22T08:08:08.920614+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T08:08:08.921936+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T08:08:09.939267+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-iedvy1gf","runtime_seconds":1.2129565},{"desc":"uploading artifact model-iedvy1gf","runtime_seconds":1.024916666}],"total_operations":2}}
+{"time":"2025-08-22T08:08:13.244505+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T08:08:13.485254+01:00","level":"INFO","msg":"stream: closing","id":"iedvy1gf"}
+{"time":"2025-08-22T08:08:13.485309+01:00","level":"INFO","msg":"handler: closed","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T08:08:13.485347+01:00","level":"INFO","msg":"sender: closed","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T08:08:13.485579+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iedvy1gf"}
+{"time":"2025-08-22T08:08:13.485661+01:00","level":"INFO","msg":"stream: closed","id":"iedvy1gf"}
