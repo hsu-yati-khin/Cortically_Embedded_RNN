@@ -79,7 +79,3 @@ For Mouse -> ~ 91%
 ## Owner
 
 - Hsu Yati Khin (oj24020@bristol.ac.uk)
-
-
-
-# Cortically_Embedded_RNN
